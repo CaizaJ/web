@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="dialogo_miari" version="0.1.3">
+ <settings>
+  <title>DIÁLOGO MIARI</title>
+  <revision description="created" date="11/8/24" />
+  <descriptors />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item name="DIALOGO" />
+ </sequence>
+ <activities>
+  <activity class="@associations.SimpleAssociation" name="DIALOGO" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0x9999FF" />
+     </style>
+     <p>RELACIONA LOS DIALOGOS CORESPONDIENTE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0x66FF66" />
+     </style>
+     <p>LO LOGRASTE</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <color background="0xFFCCCC" />
+     </style>
+     <p>VUELVE A INTENTAR</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="g1-resized.jpg" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="9" cols="1" cellWidth="89.0" cellHeight="50.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="9" />
+    <cell>
+     <p>Mbaepa reyapo?:</p>
+    </cell>
+    <cell>
+     <p>Amae ndere:</p>
+    </cell>
+    <cell>
+     <p>Pituma chesii:</p>
+    </cell>
+    <cell>
+     <p>Mbaepa reyapo rei:</p>
+    </cell>
+    <cell>
+     <p>Akosina ai?:</p>
+    </cell>
+    <cell>
+     <p>Kiaguipa reyu?:</p>
+    </cell>
+    <cell>
+     <p>Ayu cheretagui:</p>
+    </cell>
+    <cell>
+     <p>Easa eguapi:</p>
+    </cell>
+    <cell>
+     <p>Yasoropai:</p>
+    </cell>
+   </cells>
+   <cells rows="9" cols="1" cellWidth="102.0" cellHeight="50.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="9" />
+    <cell>
+     <p>¿Qué hace?</p>
+    </cell>
+    <cell>
+     <p>Te miro</p>
+    </cell>
+    <cell>
+     <p>Buenas noches tia</p>
+    </cell>
+    <cell>
+     <p>¿Qué estas haciendo?</p>
+    </cell>
+    <cell>
+     <p>¿Estoy cocinando?</p>
+    </cell>
+    <cell>
+     <p>¿De dónde vienes?</p>
+    </cell>
+    <cell>
+     <p>Vengo de mi casa</p>
+    </cell>
+    <cell>
+     <p>Pase siéntese</p>
+    </cell>
+    <cell>
+     <p>Gracias</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="g1-resized.jpg" file="g1-resized.jpg" />
+ </mediaBag>
+</JClicProject>
+
